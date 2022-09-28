@@ -74,7 +74,7 @@ class FinalizarLeilaoServiceTest {
 		
 		Mockito.when(leilaoDao.salvar(Mockito.any()))
 		.thenThrow(RuntimeException.class);
-		//jdjsjd
+		//jdjsjdsss
 		try {
 			service.finalizarLeiloesExpirados();
 			Mockito.verifyNoInteractions(enviadorDeEmails);
